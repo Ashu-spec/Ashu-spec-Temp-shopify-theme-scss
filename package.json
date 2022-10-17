@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ashu-spec/Ashu-spec-Temp-shopify-theme-scss/issues"
   },
-  "homepage": "https://github.com/Ashu-spec/Ashu-spec-Temp-shopify-theme-scss#readme"
+  "homepage": "https://github.com/Ashu-spec/Ashu-spec-Temp-shopify-theme-scss#readme",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
 }
