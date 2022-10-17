@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Ashu-spec/Ashu-spec-Temp-shopify-theme-scss#readme",
   "devDependencies": {
-    "sass": "^1.55.0"
+    "node-sass": "^7.0.3"
   }
 }
