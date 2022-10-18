@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass Natours/starter/scss/main.scss Natours/starter/css/style.cs -w"
+    "compile:sass": "node-sass Natours/starter/scss/main.scss Natours/starter/css/style.css -w"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Ashu-spec/Ashu-spec-Temp-shopify-theme-scss#readme",
   "devDependencies": {
     "node-sass": "^7.0.3"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
   }
 }
