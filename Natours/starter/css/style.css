@@ -24,30 +24,27 @@ body {
   background-position: top;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); }
+  .header__logo_box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem; }
+  .header__logo {
+    height: 3.5rem;
+    animation: moveInTop 2s; }
+  .header__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
 
-.logo-box {
-  position: absolute;
-  top: 4rem;
-  left: 4rem; }
-
-.logo {
-  height: 3.5rem;
-  animation: moveInTop 2s; }
-
-.text-box {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center; }
-
-.heading-primary {
+.header-primary {
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem; }
 
-.heading-primary-main {
+.header-primary-main {
   display: block;
   font-size: 6rem;
   font-weight: 400;
@@ -55,7 +52,7 @@ body {
   animation-name: moveInLeft;
   animation-duration: 1s; }
 
-.heading-primary-sub {
+.header-primary-sub {
   display: block;
   font-size: 2rem;
   font-weight: 700;
