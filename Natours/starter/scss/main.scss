@@ -1,15 +1,15 @@
-@import "base/base";
-@import "base/animations";
-@import "base/typography";
-@import "base/utilities";
+@import "base/_base";
+@import "base/_animations";
+@import "base/_typography";
+@import "base/_utilities";
 
-@import "abstracts/functions";
-@import "abstracts/mixins";
-@import "abstracts/variables";
+@import "abstracts/_functions";
+@import "abstracts/_mixins";
+@import "abstracts/_variables";
 
-@import "layout/header";
-@import "layout/grid";
+@import "layout/_header";
+@import "layout/_grid";
 
-@import "pages/home";
+@import "pages/_home";
 
-@import "components/button";
+@import "components/_button";
